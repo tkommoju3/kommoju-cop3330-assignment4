@@ -11,58 +11,49 @@ public class AggregateList {
     private static ArrayList<TodoList> allLists;
 
     public void addList(String name){
-        //Make a new list 'name' and add it to allLists.
+        //Make a new list name
     }
 
     public void removeList(String name){
-        //Find the TodoList 'name' and remove it by looping through allLists.
-    }
-
-    public String getLists(String name){
-        //Call listAsString for every TodoList in allLists with a newLine at the end of each and add to a return string.
-        //Return the String list.
-        return "";
+        //find and remove list name
     }
 
     public String getListItems(String name){
-        //Find the TodoList 'name' by looping through allLists.
-        //Make a String list of it's items by calling listAsString and adding to a return String.
-        //Return the String list.
+        //Find the name by loop
+        //Make items by calling and adding to return string.
+        return "";
+    }
+    public String getLists(String name){
+        //Call with a new line and add to a return string.
+        //return the string list.
         return "";
     }
 
     public String getCompleteItems(String name){
-        //Call completeItemsAsString for every TodoList in allLists with a newLine at the end of each and add to a return string.
-        //Return the String list.
+        //Call and add to return string
         return "";
     }
 
     public void exportList(String name){
-        //Add listAsString to a text file for the TodoList 'name' in allLists.
+        //Add  to a text file for name
     }
 
     public void exportAllLists(){
-        //Add listAsString to a text file for every TodoList in allLists.
+        //Add to a text file for every list
     }
 
     public void loadList(String name){
-        //Add the TodoList 'name' to a allLists
-
-        //BufferedReader object.
-        //Loop through text file until 'name' is found.
-        //Make a new TodoList object.
-        //Add its items from the text file.
+        //Loop through text file until name is found.
+        //Make a new object
+        //Add items from the text file.
         //Add object to allLists.
     }
 
     public void loadAllLists(){
-        //Add the TodoList 'name' to a allLists
-
-        //BufferedReader object.
         //Loop through text file.
-        //Make a new TodoList object.
-        //Add its items from the text file.
+        //Make a new object.
+        //Add items from the text file.
         //Add object to allLists.
-        //Repeat until end of file.
+        //Repeat until the end
     }
 }
