@@ -1,0 +1,66 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class TodoControl{
+    main()
+    start()
+}
+
+class Main{
+    +selectListButton()
+    +selectItemButton()
+    +displayIncompleteListButton()
+    +displayCompleteItemsButton()
+    +markListCompleteButton()
+    +DisplayListItemsButton()
+    +removeListButton()
+    +exportListButton()
+    +removeItemButton()
+    +addListButton()
+    +editListNameButton()
+    +importSpecifiedListsButton()
+    +addItemButton()
+    +editItemNameButton()
+    +editItemDateButton()
+    +exportAllListsButton()
+}
+
+class AggregateList{
+    -ArrayList<TodoList> allLists
+    +addList()
+    +removeList()
+    +getLists()
+    +getListItems()
+    +getCompleteItems()
+    +exportList()
+    +exportAllLists()
+    +loadList()
+    +loadAllLists()
+}
+
+class TodoList{
+    -String name
+    -ArrayList<TodoItem> allItems
+    +setName()
+    +addItem()
+    +removeItem()
+    +listAsString()
+    +completeItemsAsString()
+}
+
+class Item{
+    -String name
+    -Boolean isComplete
+    +setName()
+    +setDate()
+    +setCompleteFlag()
+    +get()
+    +getIfComplete()
+}
+
+javafx.Application <|-- TodoControl
+TodoControl o-- AggregateList
+TodoControl o- Main
+TodoList *-- Item
+AggregateList o- TodoList
+@enduml
