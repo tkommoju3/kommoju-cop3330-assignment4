@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d14ccfe5-406a-4073-8ead-4b7f662085ad" name="Default Changelist" comment="Modified">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ucf/assignments/AggregateList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ucf/assignments/Lists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ucf/assignments/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ucf/assignments/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ucf/assignments/TodoControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ucf/assignments/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ucf/assignments/TodoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ucf/assignments/TodoItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ucf/assignments/TodoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ucf/assignments/TodoList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ucf/assignments/AggregateListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ucf/assignments/ListsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ucf/assignments/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ucf/assignments/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ucf/assignments/TodoItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ucf/assignments/TodoItemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ucf/assignments/TodoListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ucf/assignments/TodoListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uml/classDiagram.puml" beforeDir="false" afterPath="$PROJECT_DIR$/uml/classDiagram.puml" afterDir="false" />
-    </list>
+    <list default="true" id="d14ccfe5-406a-4073-8ead-4b7f662085ad" name="Default Changelist" comment="Modified" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625460526457</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Modified">
+      <created>1625550468645</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625550468645</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
