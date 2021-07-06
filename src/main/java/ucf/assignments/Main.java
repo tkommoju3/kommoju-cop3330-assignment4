@@ -4,78 +4,76 @@
  */
 
 package ucf.assignments;
-
 import java.awt.event.ActionEvent;
 
 public class Main {
 
-    public void selectListButton(ActionEvent actionEvent) {
+    public void selectListClick(ActionEvent actionEvent) {
         //Remember the list
     }
 
-    public void selectItemButton(ActionEvent actionEvent) {
+    public void selectItemClick(ActionEvent actionEvent) {
         //Make sure a list has been selected.
     }
 
-    public void displayIncompleteListButton(ActionEvent actionEvent) {
-        //Show all incomplete lists
+    public void displayIncompleteListClick(ActionEvent actionEvent) {
+        //Shows all the incomplete lists
     }
 
-    public void displayCompleteItemsButton(ActionEvent actionEvent) {
-        //Show all complete lists
+    public void displayCompleteItemsClick(ActionEvent actionEvent) {
+        //Shows all the complete lists
     }
 
-    public void DisplayListItemsButton(ActionEvent actionEvent) {
-        //fill item area with items from the list.
-        //Find the items
+    public void displayListItemsClick(ActionEvent actionEvent) {
+        //fill item area with items from the list then find the items
     }
 
-    public void removeListButton(ActionEvent actionEvent) {
+    public void removeListClick(ActionEvent actionEvent) {
         //Remove the text and all the items
     }
 
-    public void exportListButton(ActionEvent actionEvent) {
-        //Copy in JSON format to a text file.
-        // If it already exists update that list.
+    public void exportListClick(ActionEvent actionEvent) {
+        //Copy in JSON format to a text file
+        // If it already exists update that list
     }
 
-    public void removeItemButton(ActionEvent actionEvent) {
+    public void removeItemClick(ActionEvent actionEvent) {
         //make sure an item and list have been selected
     }
 
-    public void addListButton(ActionEvent actionEvent) {
+    public void addListClick(ActionEvent actionEvent) {
         //Make a list based off the name
         //Add the list to the list aggregate
     }
 
-    public void editListNameButton(ActionEvent actionEvent) {
+    public void editListNameClick(ActionEvent actionEvent) {
         //Change name and update text
     }
 
-    public void importSpecifiedListsButton(ActionEvent actionEvent) {
-        //Look up all names of list separated by a comma in the JSON file.
+    public void importSpecificListsClick(ActionEvent actionEvent) {
+        //Look up all names of list separated by a comma in the JSON file
         //Add and update
     }
 
-    public void addItemButton(ActionEvent actionEvent) {
-        //Add a new item with a name
+    public void addItemClick(ActionEvent actionEvent) {
+        //Add new item with a name
     }
 
-    public void editItemNameButton(ActionEvent actionEvent) {
-        //make sure a list and utem have been selected
-        //Update an item with a name
+    public void editItemNameClick(ActionEvent actionEvent) {
+        //make sure a list and item have been selected
+        //Update item with a name
     }
 
-    public void editItemDateButton(ActionEvent actionEvent) {
+    public void editItemDateClick(ActionEvent actionEvent) {
         //make sure a list and item have been selected
         //Update with a date
     }
 
-    public void exportAllListsButton(ActionEvent actionEvent) {
-        //Export all lists from ListAggregate to JSON file.
+    public void exportAllListsClick(ActionEvent actionEvent) {
+        //Export all lists from Lists to JSON file
     }
 
-    public void markItemCompleteButton(ActionEvent actionEvent) {
-        //Change list flag to marked.
+    public void markItemCompleteClick(ActionEvent actionEvent) {
+        //Change list flag to marked
     }
 }

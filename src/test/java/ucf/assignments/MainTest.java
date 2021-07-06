@@ -5,59 +5,57 @@ import org.junit.jupiter.api.Test;
 class MainTest {
 
     @Test
-    void displayIncompleteListButton() {
-        //compare incomplete items
+    void displayIncompleteListButton() { //compare incomplete items
+
     }
 
     @Test
-    void displayCompleteItemsButton() {
-        //compare complete items
+    void displayCompleteItemsButton() { //compare complete items
+
     }
 
     @Test
-    void markItemCompleteButton() {
-        //Add an item as incomplete and make it complete
+    void markItemCompleteButton() { //Add an item as incomplete and make it complete
+
     }
 
     @Test
-    void displayListItemsButton() {
-        //compare all items
+    void displayListItemsButton() { //compare all items
+
     }
 
     @Test
-    void removeListButton() {
-        //add a few lists, then remove one list
+    void removeListButton() { //add a few lists and remove one list
+
     }
 
     @Test
-    void removeItemButton() {
-        //add a few items and remove one item
+    void removeItemButton() { //add a few items and remove one item
+
     }
 
     @Test
-    void addListButton() {
-        //add and compare list
+    void addListButton() { //add and compare a list
+
     }
 
     @Test
-    void editListNameButton() {
-        //compare list
+    void editListNameButton() { //compare list
+
     }
 
     @Test
-    void addItemButton() {
-        //add and compare item
+    void addItemButton() { //add and compare item
+
     }
 
     @Test
-    void editItemNameButton() {
-        //change item name
-        //compare item
+    void editItemNameButton() { //change item name and compare item
+
     }
 
     @Test
-    void editItemDateButton() {
-        //change item date
-        //compare item
+    void editItemDateButton() { //change item date and compare item
+
     }
 }

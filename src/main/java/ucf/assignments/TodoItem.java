@@ -10,25 +10,20 @@ public class TodoItem {
     private static String date;
     private static boolean isComplete;
 
-    public void setName(String newName){
-        //Update name.
+    public void setName(String newName){ //Update name
     }
 
-    public void setDate(String newDate){
-        //Update date.
+    public void setDate(String newDate){ //Update date
     }
 
-    public void setComplete(boolean flag){
-        //Update isComplete.
+    public void setComplete(boolean flag){ //Update isComplete
     }
 
-    public String get(){
-        //Return the name and date formatted
+    public String get(){ //Return the name and date formatted
         return  "";
     }
 
-    public String getComplete(){
-        //If isComplete is true return the item and date as a string.
+    public String getComplete(){ //If isComplete is true, return the item and date as a string
         return  "";
     }
 

@@ -5,25 +5,25 @@ import org.junit.jupiter.api.Test;
 class TodoItemTest {
 
     @Test
-    void setName() {
-        //ask the result of get() and the input values.
+    void setName() { //ask the result of get() and input values
+
     }
     @Test
-    void setDate() {
-        //ask the result of get() and the input values.
+    void setDate() { //ask the result of get() and input values.
+
     }
 
     @Test
-    void setCompleteFlag() {
-        //Create an item and set complete to 'true'
+    void setCompleteFlag() { //Create item and set complete to 'true'
+
     }
     @Test
-    void get() {
-        //ask the result of get() and the input values.
+    void get() { //ask the result of get() and the input values
+
     }
 
     @Test
-    void getIfComplete() {
-        //Call and work if the value is true.
+    void getIfComplete() { //call and work if the value is true.
+
     }
 }

@@ -12,28 +12,28 @@ public class TodoList {
     private static ArrayList<TodoItem> allItems;
 
     public void setName(String newName){
-        //Update the name.
+        //Update the name
     }
 
     public void addItem(String itemName){
-        //Make a new item and add it.
-        //If item exists do nothing.
+        //Make a new item and add it
+        //If item exists don't do anything
     }
 
     public void removeItem(String itemName){
-        //Loop through the items to find the requested item.
-        //Delete it.
+        //Loop through the items to find the requested item
+        //Delete it
     }
 
     public String stringList(){
         //Return a string with items
-        //Add list name to a return string.
+        //Add list name to a return string
         return "";
     }
 
     public String completedItems(){
         //Return a string with completed items
-        //Add list name to a return string.
+        //Add list name to a return string
         return "";
     }
 }

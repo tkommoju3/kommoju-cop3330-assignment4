@@ -7,7 +7,7 @@ package ucf.assignments;
 
 import java.util.ArrayList;
 
-public class AggregateList {
+public class Lists {
     private static ArrayList<TodoList> allLists;
 
     public void addList(String name){
@@ -18,18 +18,18 @@ public class AggregateList {
         //find and remove list name
     }
 
-    public String getListItems(String name){
+    public String getItems(String name){
         //Find the name by loop
-        //Make items by calling and adding to return string.
+        //Make items by calling and adding to return string
         return "";
     }
     public String getLists(String name){
-        //Call with a new line and add to a return string.
-        //return the string list.
+        //Call with a new line and add to a return string
+        //return the string list
         return "";
     }
 
-    public String getCompleteItems(String name){
+    public String getAllItems(String name){
         //Call and add to return string
         return "";
     }
@@ -43,17 +43,17 @@ public class AggregateList {
     }
 
     public void loadList(String name){
-        //Loop through text file until name is found.
+        //Loop through text file until name is found
         //Make a new object
-        //Add items from the text file.
-        //Add object to allLists.
+        //Add items from the text file
+        //Add object to allLists
     }
 
     public void loadAllLists(){
-        //Loop through text file.
-        //Make a new object.
-        //Add items from the text file.
-        //Add object to allLists.
+        //Loop through text file
+        //Make a new object
+        //Add items from the text file
+        //Add object to allLists
         //Repeat until the end
     }
 }
