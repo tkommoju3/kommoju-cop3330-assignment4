@@ -7,22 +7,22 @@ class Task{
 }
 
 class Main{
-    +selectListButton()
-    +selectItemButton()
-    +displayIncompleteListButton()
-    +displayCompleteItemsButton()
-    +markListCompleteButton()
-    +DisplayListItemsButton()
-    +removeListButton()
-    +exportListButton()
-    +removeItemButton()
-    +addListButton()
-    +editListNameButton()
-    +importSpecifiedListsButton()
-    +addItemButton()
-    +editItemNameButton()
-    +editItemDateButton()
-    +exportAllListsButton()
+    +selectListClick()
+    +selectItemClick()
+    +displayIncompleteListClick()
+    +displayCompleteItemsClick()
+    +markListCompleteClick()
+    +DisplayListItemsClick()
+    +removeListClick()
+    +exportListClick()
+    +removeItemClick()
+    +addListClick()
+    +editListNameClick()
+    +importSpecifiedListsClick()
+    +addItemClick()
+    +editItemNameClick()
+    +editItemDateClick()
+    +exportAllListsClick()
 }
 
 class Lists{
